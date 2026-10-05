@@ -1,0 +1,91 @@
+/* THE WHOLE PAGE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ff;
+    color: #222;
+    margin: 0;
+    padding: 30px;
+}
+
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+a {
+    color: purple;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #4b238c;
+}
+
+h3 {
+    color: purple;
+}
+
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* PICTURES */
+img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+
+/* VIDEO */
+video {
+    width: 500px;
+    max-width: 100%;
+}
+
+
+/* BLOG SECTIONS */
+hr {
+    margin: 30px 0;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+fieldset {
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
